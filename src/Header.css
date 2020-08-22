@@ -17,3 +17,29 @@
     margin-left:auto ;
     margin-right: 30px;
 }
+.header_search {
+    background-color: #421f44;
+    flex: 0.4;
+    text-align: center;
+    display: flex;
+    padding: 0 50px;
+    color: gray;
+    border: 1px gray solid;
+    border-radius: 6px;
+}
+.header_search>input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    min-width: 30vw;
+}
+.header_right {
+    flex: 0.3;
+    display: flex;
+    align-items: flex-end;
+}
+.header_right>.MuiSvgIcon-root
+{
+    margin-left: auto;
+    margin-right: 20px;
+} 

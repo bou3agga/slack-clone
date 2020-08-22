@@ -8,8 +8,11 @@ function App() {
     <div className="app">
       <h1>sup nigga </h1>
       <Header />
-      {/*sidebar*/}
-      {/*react-router->chat screen*/}
+      <div className="app_body">
+        {/*sidebar*/}
+        {/*react-router->chat screen*/}
+      </div>
+
     </div>
   );
 }
