@@ -3,6 +3,7 @@
     flex-grow: 1;
     overflow-y: scroll;
     padding-bottom: 150px;
+    margin-bottom: 8.9%;
 }
 .chat_header
 {
@@ -28,4 +29,8 @@ font-size: 14px;
 .chat_headerRight>p>.MuiSvgIcon-root{
     margin-right: 5px !important;
     font-size: 16px;
+}
+.chat_messages{
+    padding: 20px;
+    
 }

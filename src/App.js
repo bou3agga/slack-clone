@@ -18,7 +18,7 @@ function App() {
 
     <div className="app">
       <Router>
-        {!user ? (/*<h1>login page</h1>*/<Login />) : (
+        {!user ? (<Login />) : (
           <>
             <Header />
             <div className="app_body">
